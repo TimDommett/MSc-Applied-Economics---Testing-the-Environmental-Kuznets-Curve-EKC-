@@ -1,0 +1,74 @@
+Production Based Measure,,,,,Consumption Based Measure,,
+Dep. Variable:   ,Edp,,,,Edc,,
+,,,,,,,
+                           ,Coefficient,Standard Deviation,p-value,,Coefficient,Standard Deviation,p-value
+Constant,-0.63,1.21,0.61,,21.79,6.01,0
+Y,0.12,0.23,0.6,,-4.62,1.28,0
+E,0.81,0.1,0,,0.94,0.11,0
+T,-0.26,0.06,0,,-0.21,0.09,0.04
+UG,0.02,0.02,0.29,,0.02,0.02,0.52
+Y2,-0.02,0.01,0.24,,0.22,0.06,0
+,,,,,,,
+No. Observations:,43,,,,25,,
+Adj. R-squared:    ,0.877,,,,0.875,,
+AIC:               ,-171.5,,,,-118.1,,
+BIC:               ,-160.9,,,,-110.8,,
+,,,,,,,
+,,,,,,,
+Notes:,,,,,,,
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.,,,,,,,
+[2] The condition number is large, 2.51e+04. This might indicate that there are,,,,,,
+strong multicollinearity or other numerical problems.,,,,,,,
+,,,,,,,
+,,,,,,,
+US,,,,,,,
+Production Based Measure,,,,,Consumption Based Measure,,
+Dep. Variable:   ,Edp,,,,Edc,,
+,,,,,,,
+                           ,Coefficient,Standard Deviation,p-value,,Coefficient,Standard Deviation,p-value
+Constant,4.19,0.92,0,,3.19,17.78,0.86
+Y,-1.97,0.19,0,,-3.14,3.89,0.43
+E,1.51,0.11,0,,2.29,0.36,0
+T,-0.05,0.04,0.28,,-0.33,0.11,0.01
+UG,-0.07,0.02,0,,-0.14,0.06,0.03
+Y2,0.0885,0.009,0,,0.1507,0.185,0.424
+,,,,,,,
+Observations:,45,,,,25,,
+Adj. R-squared:    ,0.955,,,,0.933,,
+AIC:               ,-207.3,,,,-112.5,,
+BIC:               ,-196.5,,,,-105.2,,
+,,,,,,,
+,,,,,,,
+China,,,,,,,
+Production Based Measure,,,,,Consumption Based Measure,,
+Dep. Variable:   ,Edp,,,,Edc,,
+,,,,,,,
+                           ,Coefficient,Standard Deviation,p-value,,Coefficient,Standard Deviation,p-value
+Constant,3.36,0.59,0,,5.04,1.85,0.01
+Y,-0.64,0.19,0,,-0.82,0.24,0
+E,0.86,0.11,0,,0.73,0.39,0.08
+T,0.1,0.07,0.17,,-0.06,0.2,0.78
+UG,-0.01,0.05,0.78,,-0.02,0.29,0.94
+Y2,0.0358,0.012,0.005,,0.0534,0.028,0.071
+,,,,,,,
+Observations:,44,,,,25,,
+Adj. R-squared:    ,0.995,,,,0.991,,
+AIC:               ,-129.7,,,,-81.96,,
+BIC:               ,-119,,,,-74.64,,
+,,,,,,,
+SA,,,,,,,
+Production Based Measure,,,,,Consumption Based Measure,,
+Dep. Variable:   ,Edp,,,,Edc,,
+,,,,,,,
+                           ,Coefficient,Standard Deviation,p-value,,Coefficient,Standard Deviation,p-value
+Constant,5.23,1.93,0.01,,-7.38,6.74,0.29
+Y,-3.13,0.61,0,,2.97,1.59,0.08
+E,1.39,0.12,0,,-0.22,0.2,0.3
+T,-0.05,0.08,0.55,,0.05,0.09,0.63
+UG,-0.02,0.08,0.76,,-0.42,0.09,0
+Y2,0.2023,0.037,0,,-0.1586,0.094,0.107
+,,,,,,,
+Observations:,44,,,,25,,
+Adj. R-squared:    ,0.964,,,,0.935,,
+AIC:               ,-113.2,,,,-87.46,,
+BIC:               ,-102.5,,,,-80.15,,

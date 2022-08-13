@@ -1,0 +1,10 @@
+,China,China Income,China Energy Usage,China Trade,China Urbanization,South Africa,South Africa Income,South Africa Energy Usage,South Africa Trade,South Africa Urbanization,United Kingdom,United Kingdom Income,United Kingdom Energy Usage,United Kingdom Trade,United Kingdom Urbanization,USA,United States Income,United States Energy Usage,United States Trade,United States Urbanization
+count,62,51,44,61,60,62,50,44,61,60,62,49,55,51,60,62,51,55,51,60
+mean,1021.187646,1750.335778,1080.455213,27.24379865,3.469630413,83.78961824,3290.448774,3991.581354,50.04295969,2.68606836,152.1184863,20125.54285,4908.445553,52.77718973,0.527117625,1335.145199,26453.54335,10318.04167,21.64670764,1.288832455
+std,921.1034804,2366.405709,1081.83983,17.80052902,1.109435162,35.50153231,1810.330172,715.1153953,6.28886666,0.423331925,19.8594421,13104.58809,1019.617669,5.281616511,0.361921571,244.0339748,15660.54325,3027.75736,5.344517909,0.357967762
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+"delete, rearrange and transpose",,,,,,,,,,,,,,,,,,,,
+Then just get first one from consumption based,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,26 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,China           ,  R-squared:         ,   0.993
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.991
+Method:          ,Least Squares   ,  F-statistic:       ,   524.9
+Date:            ,Sat, 13 Aug 2022,  Prob (F-statistic):,1.14e-19
+Time:            ,16:42:31        ,  Log-Likelihood:    ,  46.979
+No. Observations:,    25          ,  AIC:               ,  -81.96
+Df Residuals:    ,    19          ,  BIC:               ,  -74.64
+Df Model:        ,     5          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                  ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const             ,    5.0359,    1.851,    2.720, 0.014,    1.161,    8.911
+China GDP         ,   -0.8177,    0.241,   -3.391, 0.003,   -1.322,   -0.313
+China Energy Usage,    0.7346,    0.391,    1.877, 0.076,   -0.084,    1.554
+China Trade       ,   -0.0562,    0.199,   -0.283, 0.780,   -0.472,    0.360
+China Urbanization,   -0.0204,    0.287,   -0.071, 0.944,   -0.621,    0.581
+China GDP Squared ,    0.0534,    0.028,    1.913, 0.071,   -0.005,    0.112
+Omnibus:      , 1.171,  Durbin-Watson:     ,   0.697
+Prob(Omnibus):, 0.557,  Jarque-Bera (JB):  ,   0.998
+Skew:         , 0.273,  Prob(JB):          ,   0.607
+Kurtosis:     , 2.188,  Cond. No.          ,1.27e+04
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.27e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

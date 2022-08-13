@@ -1,0 +1,26 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,United Kingdom  ,  R-squared:         ,   0.892
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.877
+Method:          ,Least Squares   ,  F-statistic:       ,   60.97
+Date:            ,Sat, 23 Jul 2022,  Prob (F-statistic):,7.67e-17
+Time:            ,17:05:06        ,  Log-Likelihood:    ,  91.743
+No. Observations:,    43          ,  AIC:               ,  -171.5
+Df Residuals:    ,    37          ,  BIC:               ,  -160.9
+Df Model:        ,     5          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                           ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                      ,   -0.6298,    1.207,   -0.522, 0.605,   -3.075,    1.815
+United Kingdom GDP         ,    0.1205,    0.228,    0.530, 0.599,   -0.340,    0.581
+United Kingdom Energy Usage,    0.8110,    0.100,    8.150, 0.000,    0.609,    1.013
+United Kingdom Trade       ,   -0.2556,    0.057,   -4.465, 0.000,   -0.372,   -0.140
+United Kingdom Urbanization,    0.0189,    0.017,    1.082, 0.286,   -0.016,    0.054
+United Kingdom GDP Squared ,   -0.0150,    0.012,   -1.208, 0.235,   -0.040,    0.010
+Omnibus:      , 0.868,  Durbin-Watson:     ,   1.126
+Prob(Omnibus):, 0.648,  Jarque-Bera (JB):  ,   0.780
+Skew:         , 0.312,  Prob(JB):          ,   0.677
+Kurtosis:     , 2.783,  Cond. No.          ,2.51e+04
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

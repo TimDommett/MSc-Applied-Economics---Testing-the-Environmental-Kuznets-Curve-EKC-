@@ -1,0 +1,26 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,USA             ,  R-squared:         ,   0.947
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.933
+Method:          ,Least Squares   ,  F-statistic:       ,   67.65
+Date:            ,Sat, 13 Aug 2022,  Prob (F-statistic):,1.93e-11
+Time:            ,16:42:31        ,  Log-Likelihood:    ,  62.254
+No. Observations:,    25          ,  AIC:               ,  -112.5
+Df Residuals:    ,    19          ,  BIC:               ,  -105.2
+Df Model:        ,     5          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                          ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                     ,    3.1924,   17.784,    0.180, 0.859,  -34.030,   40.415
+United States GDP         ,   -3.1438,    3.885,   -0.809, 0.428,  -11.276,    4.988
+United States Energy Usage,    2.2864,    0.362,    6.325, 0.000,    1.530,    3.043
+United States Trade       ,   -0.3291,    0.111,   -2.978, 0.008,   -0.560,   -0.098
+United States Urbanization,   -0.1391,    0.058,   -2.416, 0.026,   -0.260,   -0.019
+United States GDP Squared ,    0.1507,    0.185,    0.816, 0.424,   -0.236,    0.537
+Omnibus:      , 1.202,  Durbin-Watson:     ,   2.127
+Prob(Omnibus):, 0.548,  Jarque-Bera (JB):  ,   1.124
+Skew:         , 0.392,  Prob(JB):          ,   0.570
+Kurtosis:     , 2.319,  Cond. No.          ,4.43e+05
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.43e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

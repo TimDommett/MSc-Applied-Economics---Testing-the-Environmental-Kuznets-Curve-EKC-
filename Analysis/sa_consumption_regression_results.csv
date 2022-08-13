@@ -1,0 +1,26 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,South Africa    ,  R-squared:         ,   0.948
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.935
+Method:          ,Least Squares   ,  F-statistic:       ,   69.54
+Date:            ,Sat, 13 Aug 2022,  Prob (F-statistic):,1.51e-11
+Time:            ,16:42:31        ,  Log-Likelihood:    ,  49.732
+No. Observations:,    25          ,  AIC:               ,  -87.46
+Df Residuals:    ,    19          ,  BIC:               ,  -80.15
+Df Model:        ,     5          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                         ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                    ,   -7.3826,    6.742,   -1.095, 0.287,  -21.494,    6.729
+South Africa GDP         ,    2.9693,    1.589,    1.869, 0.077,   -0.356,    6.294
+South Africa Energy Usage,   -0.2157,    0.201,   -1.073, 0.297,   -0.637,    0.205
+South Africa Trade       ,    0.0469,    0.094,    0.497, 0.625,   -0.150,    0.244
+South Africa Urbanization,   -0.4157,    0.087,   -4.801, 0.000,   -0.597,   -0.234
+South Africa GDP Squared ,   -0.1586,    0.094,   -1.691, 0.107,   -0.355,    0.038
+Omnibus:      , 0.604,  Durbin-Watson:     ,   2.126
+Prob(Omnibus):, 0.739,  Jarque-Bera (JB):  ,   0.109
+Skew:         , 0.153,  Prob(JB):          ,   0.947
+Kurtosis:     , 3.104,  Cond. No.          ,6.66e+04
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.66e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
